@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 import numpy as np
 import tensorflow as tf
 import cv2
+import os
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '1'
 
 app = Flask(__name__)
 
