@@ -13,8 +13,8 @@ ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg'])
 
 models = {
     "model_from_scratch" : tf.keras.models.load_model("static/model_from_scratch.h5"),
-    "resnet_model" : tf.keras.models.load_model("static/resnet_model.h5"),
-    "vgg16_model" : tf.keras.models.load_model("static/vgg16_model.h5")
+    #"resnet_model" : tf.keras.models.load_model("static/resnet_model.h5"),
+    #"vgg16_model" : tf.keras.models.load_model("static/vgg16_model.h5")
 }
 
 def allowed_file(filename):
