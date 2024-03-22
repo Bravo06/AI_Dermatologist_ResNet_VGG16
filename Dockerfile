@@ -14,4 +14,4 @@ RUN pip install opencv-python
 
 EXPOSE 5000
 
-CMD waitress-serve --listen=0.0.0.0:5000 app:app
+CMD waitress-serve --listen=0.0.0.0:10000 app:app
